@@ -1,0 +1,39 @@
+.header{
+    background-color:rgb(19, 113, 221);
+    height: 60px;
+    color: black;
+    display: flex;
+    
+}
+
+.header>  h3{
+    margin: auto;
+    margin-left:10px ;
+    font-family: cursive;
+    font-weight: 600;
+    color: aliceblue;
+}
+.header>button{
+    background: transparent;
+    margin: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 15px;
+    color: aliceblue;
+    border: 3px solid white;
+    cursor: pointer;
+    font-weight: 600;
+    transition: 0.5s;
+  
+    
+
+}
+
+
+.header>button:hover{
+   background-color: aliceblue;
+   color: rgb(19, 113, 221);
+   font-weight: 600;
+   
+   
+}

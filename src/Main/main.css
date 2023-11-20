@@ -1,0 +1,78 @@
+#input_div{
+
+    background-color:rgb(19, 54, 94) ;
+    height: 100vh;
+    
+}
+
+#input_div > img {
+    height: 50px;
+    cursor: pointer;
+}
+
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 40px;
+    width: 100%;
+    text-align: center;
+ }
+
+
+ .footer > .Link > img {
+     height: 40px;
+     float: right;
+     margin-right: 15px;
+     margin-bottom: 50px;
+     cursor: pointer;
+ }
+
+
+ .footer > span{
+    background-color: rgba(9, 158, 9, 0.2);
+     float: left;
+     margin-top: 15px;
+     color: darkgreen;
+     padding: 5px;
+     font-weight: 700;
+ }
+
+ .input {
+    background-color:rgb(19, 113, 221) ;
+    border: none;
+    width: 90%;
+    height: 40px;
+    
+ }
+
+ .input:focus {
+    border: 2px solid white;
+    outline: none;
+    color: white;
+    font-weight: 400;
+    font-size: 15px;
+ }
+
+
+ .input_container {
+    position: fixed;
+    bottom: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+ }
+
+
+
+  .input_container  > button {
+    border: 1px solid white;
+    width: 8%;
+    outline: none;
+    background-color: rgb(19, 113, 221);
+    color: aliceblue;
+    font-weight: 700;
+  }
+
+
+
